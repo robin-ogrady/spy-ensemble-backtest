@@ -31,6 +31,28 @@ size = base (from score) x volatility scalar x VIX scalar x momentum scalar
 
 Leverage includes a borrowing cost, and every trade includes a transaction cost.
 
+## Results (original version, SPY, 1993 to 2024)
+
+| Metric | Strategy | Buy & Hold |
+|--------|----------|------------|
+| CAGR | 13.2% | 10.5% |
+| Volatility | 19.3% | 18.6% |
+| Sharpe ratio | 0.74 | 0.63 |
+| Max drawdown | -49.3% | -55.2% |
+| Calmar ratio | 0.27 | 0.19 |
+| $100k grew to | $5.16M | $2.40M |
+
+| Period | Strategy CAGR | B&H CAGR | Strategy max DD | B&H max DD |
+|--------|---------------|----------|-----------------|------------|
+| 1994-1999 (tech bubble) | 26.0% | 23.3% | -18.9% | -19.0% |
+| 2000-2009 (two crashes) | 1.5% | -0.9% | -49.3% | -55.2% |
+| 2010-2019 (bull market) | 15.6% | 13.3% | -22.7% | -19.3% |
+| 2020-2024 (COVID + 2022) | 20.7% | 14.4% | -32.7% | -33.7% |
+
+359 rebalances, average position 1.04x, max leverage 1.5x. Includes transaction and borrowing costs.
+
+Caveat: part of the edge comes from using leverage in calm markets, and the original thresholds were still picked by someone who knew how 1993 to 2024 played out. So even this version isn't a true out-of-sample test.
+
 ## Files
 
 | File | What it is |
