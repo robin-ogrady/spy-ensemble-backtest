@@ -57,9 +57,9 @@ All results include transaction and borrowing costs.
 
 ### Charts
 
-![SPY results](original_SPY_output.png)
-![QQQ results](original_QQQ_output.png)
-![XLE results](original_XLE_output.png)
+![SPY results](Figure_1.png)
+![QQQ results](Figure_2.png)
+![XLE results](Figure_3.png)
 
 ## Files
 
